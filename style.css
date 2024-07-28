@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)), url(/photo4\ \(3\).jpg);
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover{
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.row{
+    margin-top: 20%;
+    max-width: 600px;
+}
+
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    padding: 5px;
+}
+
+
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 5px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
